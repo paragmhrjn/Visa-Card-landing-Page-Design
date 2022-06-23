@@ -1,0 +1,197 @@
+*  
+    { 
+    margin: 0;
+    border: 0; 
+}
+
+.clear 
+    { 
+    clear:both; 
+} 
+
+.right 
+    { 
+    float: right; 
+} 
+
+.left 
+    { 
+    float: left; 
+}
+html{
+    height: 100%;
+}
+body 
+    { 
+    font: 62.5%/1.5  "Lucida Grande", "Lucida Sans", Tahoma, Verdana, sans-serif; 
+    background: #000000;
+    background: linear-gradient(180deg,#9c9d9d 0%, #484646 60%, #000000 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;     
+    text-align:center; 
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+    
+} 
+
+#wrapper 
+    {  
+    min-height: 100vh;
+    width: 100%;
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#circle{
+    width:450px;
+    height: 450px;
+    line-height: 450px;
+    border-radius: 50%;
+    font-size: 50px;
+    color: rgb(58, 53, 53);
+    text-align: center;
+    background: rgb(235, 210, 24);
+    position: absolute;
+    top: 20%;
+    left: 37%;
+    margin: -25px 0 0 -25px;
+  
+  
+}
+
+#card1{
+    width:170px;
+    height:300px;
+    border-radius: 20px;
+    position: absolute;
+    top: 2git 3%;
+    left: 40%;
+    text-align: center;
+    background: radial-gradient(circle, rgb(57, 60, 60) 0%, rgb(1, 1, 7) 100%);
+    transform:perspective(400px) rotate(-15deg) skew(5deg, 12deg);
+    padding: 1.5%;
+    cursor:pointer;
+    z-index: 1;
+}
+
+#card2{
+    width:250px;
+    height:150px;
+    border-radius: 20px;
+    position: absolute;
+    top:20%;
+    left: 60%;
+    text-align: center;
+    color: rgb(70, 38, 38);
+    background:rgb(255, 249, 73);
+    transform: perspective(800px) rotateX(10deg) skew(5deg, -20deg);
+    padding: 2%;
+    cursor:pointer;
+    }
+
+.card-inner{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.row{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+.chip{
+    transform: rotate(90deg);
+}
+
+.map-img{
+    width: 90%;
+    display: block;
+    align-items: center;
+    position: absolute;
+    top:20%;
+    left: 0;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.card-no{
+    font-size: 15px;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    display: flex;
+    align-items: center;
+}
+.card-no p{
+    padding-right: 35px;
+}
+
+.card-holder{
+    font-size: 7px;
+    margin-top: 150px;
+    font-style: oblique;
+    display: flex;
+    justify-content: left;
+}
+
+.name{
+    font-size:12px;
+    margin-top: 20px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: left;
+}
+.card-holder p, .name p{
+    margin-right:30px;
+}
+
+.visa{
+    margin-top: 20px;
+    text-align: left;
+}
+
+.bar{
+    background: #222;
+    margin-left: -27px;
+    margin-right: -27px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.card-cvv div{
+    flex:1;
+}
+.card-cvv img{
+    width: 100%;
+    display: block;
+    line-height: 0;
+}
+
+.card-cvv p{
+background: #fff;
+color: #000000;
+font-size: 7px;
+padding: 7px;
+}
+
+.card-text{
+    margin-top: 20px;
+    font-size: 8px;
+}
+
+.signature{
+    margin-top: 20px;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
